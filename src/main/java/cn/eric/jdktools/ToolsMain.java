@@ -9,4 +9,9 @@ package cn.eric.jdktools;
  * @date 2019/8/1 14:35
  **/
 public class ToolsMain {
+
+
+    public static void main(String[] args) {
+        System.out.println("hello tools");
+    }
 }
