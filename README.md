@@ -21,6 +21,7 @@ date
  
 encrypt
    AESUtil                   // AES加解密工具类
+   MD5Util                   // MD5工具类
  
 exception
    ExceptionUtil             // 异常处理工具类 获取异常信息栈里的具体信息
@@ -30,6 +31,8 @@ http
    MyX509TrustManager        // HttpUtil的依赖类
    HttpUtils                 // http 和 https 工具类2
    CookieUtil                // cookie操作工具类
+   ApaHttpClientUtil         // http 和 https 工具类3
+   MySSLProtocolSocketFactory// ApaHttpClientUtil的依赖类
    
 other
    MyBloomFilter             // 布隆过滤器
