@@ -8,7 +8,9 @@ base64
  
 code
    CodeUtil                  // code码生成工具
-
+   OrderNoUtil               // 订单编号生成工具类
+   QRcodeUtils               // 二维码工具类
+   
 common
    Config                    // 读取配置文件工具类
 
