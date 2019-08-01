@@ -4,46 +4,46 @@
 ## 目录结构
 
 ### base64
-Base64Utils                 // 图片转base64 base64转图片<br>
+Base64Utils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 图片转base64 base64转图片<br>
  
 ### code
-CodeUtil                    // code码生成工具<br>
-OrderNoUtil                 // 订单编号生成工具类<br>
-QRcodeUtils                 // 二维码工具类<br>
+CodeUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// code码生成工具<br>
+OrderNoUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 订单编号生成工具类<br>
+QRcodeUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 二维码工具类<br>
    
 ### common
-Config                      // 读取配置文件工具类
+Config &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 读取配置文件工具类
 
 ### data
-BigDecimalUtil              // 金额计算工具类<br>
-NumUtil                     // 格式化数字工具类<br>
+BigDecimalUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 金额计算工具类<br>
+NumUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 格式化数字工具类<br>
       
 ### date
-DateUtil                    // 线程安全的日期工具类<br>
+DateUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 线程安全的日期工具类<br>
  
 ### encrypt
-AESUtil                   >>>>>// AES加解密工具类<br>
-MD5Util                   >>>>>// MD5工具类<br>
+AESUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// AES加解密工具类<br>
+MD5Util   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// MD5工具类<br>
  
 ### exception
-ExceptionUtil             >>>>>// 异常处理工具类 获取异常信息栈里的具体信息<br>
+ExceptionUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 异常处理工具类 获取异常信息栈里的具体信息<br>
  
 ### http
-HttpUtil                  >>>>>// http 和 https 工具类<br>
-MyX509TrustManager        >>>>>// HttpUtil的依赖类<br>
-HttpUtils                 >>>>>// http 和 https 工具类2<br>
-CookieUtil                >>>>>// cookie操作工具类<br>
-ApaHttpClientUtil         >>>>>// http 和 https 工具类3<br>
-MySSLProtocolSocketFactory>>>>>// ApaHttpClientUtil的依赖类<br>
+HttpUtil    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类<br>
+MyX509TrustManager     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// HttpUtil的依赖类<br>
+HttpUtils     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类2<br>
+CookieUtil           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// cookie操作工具类<br>
+ApaHttpClientUtil       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类3<br>
+MySSLProtocolSocketFactory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// ApaHttpClientUtil的依赖类<br>
    
 ### other
-MyBloomFilter             >>>>>// 布隆过滤器<br>
+MyBloomFilter            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 布隆过滤器<br>
    
 ### redis
-RedisUtil                 >>>>>// Jedis工具类<br>
+RedisUtil            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// Jedis工具类<br>
        
 ### spring
-SpringContextUtil         >>>>>// SpringContext工具类<br>
+SpringContextUtil       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SpringContext工具类<br>
   
   
 
