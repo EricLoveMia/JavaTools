@@ -21,6 +21,9 @@ NumUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 格式化数字工具类<br>
 ### date
 DateUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 线程安全的日期工具类<br>
  
+### db
+JDBCUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // JDBC工具类<br>
+ 
 ### encrypt
 AESUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// AES加解密工具类<br>
 MD5Util   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// MD5工具类<br>
@@ -35,6 +38,7 @@ HttpUtils     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类2<br>
 CookieUtil           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// cookie操作工具类<br>
 ApaHttpClientUtil       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类3<br>
 MySSLProtocolSocketFactory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// ApaHttpClientUtil的依赖类<br>
+IPUtils  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// IP工具类
    
 ### other
 MyBloomFilter            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 布隆过滤器<br>
