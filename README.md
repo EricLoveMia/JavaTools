@@ -15,35 +15,35 @@ QRcodeUtils               // 二维码工具类
 Config                    // 读取配置文件工具类
 
 ### data
-BigDecimalUtil            // 金额计算工具类
-NumUtil                   // 格式化数字工具类
+BigDecimalUtil            // 金额计算工具类<br>
+NumUtil                   // 格式化数字工具类<br>
       
 ### date
-DateUtil                  // 线程安全的日期工具类
+DateUtil                  // 线程安全的日期工具类<br>
  
 ### encrypt
-AESUtil                   // AES加解密工具类
-MD5Util                   // MD5工具类
+AESUtil                   // AES加解密工具类<br>
+MD5Util                   // MD5工具类<br>
  
 ### exception
-ExceptionUtil             // 异常处理工具类 获取异常信息栈里的具体信息
+ExceptionUtil             // 异常处理工具类 获取异常信息栈里的具体信息<br>
  
 ### http
-HttpUtil                  // http 和 https 工具类
-MyX509TrustManager        // HttpUtil的依赖类
-HttpUtils                 // http 和 https 工具类2
-CookieUtil                // cookie操作工具类
-ApaHttpClientUtil         // http 和 https 工具类3
-MySSLProtocolSocketFactory// ApaHttpClientUtil的依赖类
+HttpUtil                  // http 和 https 工具类<br>
+MyX509TrustManager        // HttpUtil的依赖类<br>
+HttpUtils                 // http 和 https 工具类2<br>
+CookieUtil                // cookie操作工具类<br>
+ApaHttpClientUtil         // http 和 https 工具类3<br>
+MySSLProtocolSocketFactory// ApaHttpClientUtil的依赖类<br>
    
 ### other
-MyBloomFilter             // 布隆过滤器
+MyBloomFilter             // 布隆过滤器<br>
    
 ### redis
-RedisUtil                 // Jedis工具类
+RedisUtil                 // Jedis工具类<br>
        
 ### spring
-SpringContextUtil         // SpringContext工具类
+SpringContextUtil         // SpringContext工具类<br>
   
   
 
