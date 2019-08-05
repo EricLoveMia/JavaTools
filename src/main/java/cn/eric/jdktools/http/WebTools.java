@@ -1,6 +1,9 @@
 package cn.eric.jdktools.http;
 
 
+import org.apache.commons.lang.StringUtils;
+
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
@@ -18,6 +21,23 @@ public class WebTools {
      */
     private WebTools() {
         
+    }
+
+    /**
+     * 判断是否为AJAX请求
+     * @author Eric
+     * @date 18:21 2019/8/5
+     * @param req
+     * @throws
+     * @return boolean
+     **/
+    public static boolean jsAjax(HttpServletRequest req){
+        //判断是否为ajax请求，默认不是
+        boolean isAjaxRequest = false;
+        if(!StringUtils.isBlank(req.getHeader("x-requested-with")) && req.getHeader("x-requested-with").equals("XMLHttpRequest")){
+            isAjaxRequest = true;
+        }
+        return isAjaxRequest;
     }
 
     /**
