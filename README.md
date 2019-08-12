@@ -49,6 +49,8 @@ FileUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 文件工具类 常用的文件�
 UploadHelper  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 异常处理工具类 <br>
 ExcelHanlder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 普通Excel工具类 <br>
 ExcelUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 阿里 EasyExcel工具类 <br>
+FtpUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// FTP工具类 <br>
+ZipUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 解压缩工具类 <br>
 
 ### http
 HttpUtil    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类<br>

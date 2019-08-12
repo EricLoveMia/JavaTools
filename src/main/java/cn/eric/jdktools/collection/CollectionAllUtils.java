@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.util.*;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -176,7 +177,7 @@ public class CollectionAllUtils {
         }
 
         /** 打印 */
-        public void print(List<T> list) throws NoSuchMethodException, IllegalAccessException {
+        public String print(List<T> list) throws NoSuchMethodException, IllegalAccessException {
             // 得到泛型的类型
             Class <T> entityClass = (Class <T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
             Field[] declaredFields = entityClass.getDeclaredFields();
@@ -194,6 +195,7 @@ public class CollectionAllUtils {
             }
 
             System.out.println(builder.toString());
+            return builder.toString();
         }
 
         /**
@@ -245,12 +247,19 @@ public class CollectionAllUtils {
             return sort(list,null,true);
         }
 
-
-        /** 分组 */
-
-
         /** 过滤 */
+        public List<T> filter(List<T> list, Predicate<T> predicate){
+            return list.stream().filter(predicate).collect(Collectors.toList());
+        }
 
+        /** 多条件 过滤 */
+        public List<T> filter(List<T> list, Predicate<T>[] predicates){
+            Stream<T> stream = list.stream();
+            for (int i = 0; i < predicates.length; i++) {
+                stream.filter(predicates[i]);
+            }
+            return  stream.collect(Collectors.toList());
+        }
 
         /** 合并，并集  交集 = intersection; 并集 = union; 补集 = complement; 补集 = complement*/
         public List<T> intersection(List<T> list1,List<T> list2){
@@ -273,13 +282,15 @@ public class CollectionAllUtils {
             return list.stream().distinct().collect(Collectors.toList());
         }
 
-
-
         /** 转数组 */
+        public T[] toArray(List<T> list){
+            return (T[]) list.toArray();
+        }
 
-        /** 变成线程安全的队列*/
-
-
+        /** 变成线程安全的*/
+        public List<T> changeToSafe(List<T> list){
+            return Collections.synchronizedList(list);
+        }
 
     }
 
@@ -304,11 +315,15 @@ public class CollectionAllUtils {
 
         /** 交集 */
 
+
         /** 去重 */
+
 
         /** 转数组 */
 
-        /** 变成线程安全的队列*/
+
+        /** 变成线程安全的Set*/
+
 
 
 
