@@ -50,6 +50,9 @@ UploadHelper  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 异常处理工具类 <br>
 ExcelHanlder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 普通Excel工具类 <br>
 ExcelUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 阿里 EasyExcel工具类 <br>
 FtpUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// FTP工具类 <br>
+MD5FileCheckUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// MD5工具类 <br>
+TarGzUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// TAR包读取内部文件工具类 <br>
+YamlUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// YML文件工具类 <br>
 ZipUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 解压缩工具类 <br>
 
 ### http
@@ -60,6 +63,7 @@ CookieUtil           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// cookie操作工具类<
 ApaHttpClientUtil       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// http 和 https 工具类3<br>
 MySSLProtocolSocketFactory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// ApaHttpClientUtil的依赖类<br>
 IPUtils  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// IP工具类<br>
+RestTemplateUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// RestTemplate工具类<br>
 UrlUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// url解析工具<br>
 WebTools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// WEB开发常用工具类 特殊字符处理等<br>
 
@@ -67,6 +71,7 @@ WebTools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// WEB开发常用工具类 特殊字
 ImageUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 图片处理工具类 <br>
 
 ### other
+EnumUtil                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 枚举工具类<br>
 MyBloomFilter            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 布隆过滤器<br>
    
 ### redis
@@ -79,4 +84,7 @@ SpringContextUtil       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SpringContext工具
 CharTools       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符编码工具类<br>
 StringHelper       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符串工具类<br>
 ValidateUtil    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 验证工具类（车牌、手机、邮箱，待补充）<br>
+
+### ssh
+SSHHelper        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SSH远程连接工具类<br>
 
