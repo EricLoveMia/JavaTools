@@ -15,6 +15,7 @@ OrderNoUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 订单编号生成工具类<br>
 QRcodeUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 二维码工具类<br>
 RegExUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 正则表达式工具类<br>
 SnowflakeIdWorker  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 雪花编码生成工具<br>
+VerificationCodeGeneration  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 验证码生成工具<br>
    
 ### collection
 CollectionAllUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// List Map Set 工具集合(未完成)<br>
