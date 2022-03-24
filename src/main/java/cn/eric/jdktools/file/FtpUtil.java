@@ -500,7 +500,7 @@ public class FtpUtil {
 
     public static void main(String[] args) throws Exception {
         FtpUtil ftpUtil = new FtpUtil("UTF-8");
-        ftpUtil.connect("1.2.3.4", 21, "testuser", "testuser");
+        ftpUtil.connect("211.", 22000, "root", "lovemia@1314");
         //ftpUtil.setTimeOut(60, 60, 60);
         ftpUtil.upload("/home/testuser/文件1.txt", new File("E:/image/FTPClient/FTPClient测试/文件1.txt"));
         ftpUtil.download("/home/testuser/文件1.txt", new File("E:/image/FTPClient/FTPClient测试/文件1.txt"));

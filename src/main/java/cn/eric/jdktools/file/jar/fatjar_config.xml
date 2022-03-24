@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+    <jars> 
+		<jar path="D:\\jar\\fastjson.jar"/>
+		<jar path="D:\\jar\\Base64-Md5-wzy.jar"/>
+	</jars>
+	
+	<assets path="C:\\Users\\Administrator\\Desktop\\fatjar\\assets"/>
+</files>

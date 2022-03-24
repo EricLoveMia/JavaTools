@@ -1,16 +1,6 @@
 package cn.eric.jdktools.http;
 
-/**
- * @author Eric
- * @version 1.0
- * @ClassName: HttpUtil
- * @Description: TODO
- * @company lsj
- * @date 2019/2/20 10:42
- **/
-
 import org.springframework.util.StringUtils;
-
 import javax.net.ssl.*;
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -21,12 +11,14 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Map;
 import java.util.Map.Entry;
-
 /**
- * http、https 请求工具类， 微信为https的请求
- * @author yehx
- *
- */
+ * @author Eric
+ * @version 1.0
+ * @ClassName: HttpUtil
+ * @Description: TODO
+ * @company lsj
+ * @date 2019/2/20 10:42
+ **/
 public class HttpUtil {
 
     private static final String DEFAULT_CHARSET = "UTF-8";

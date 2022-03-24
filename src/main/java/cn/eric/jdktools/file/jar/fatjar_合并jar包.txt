@@ -1,0 +1,2 @@
+Launcher.java、FatJarCreator.java 这两个放在一起   执行Launcher.java的main方法 根目录下面生成一个out文件夹里面的是最终生成的jar包
+fatjar_config.xml  放到根目录下
