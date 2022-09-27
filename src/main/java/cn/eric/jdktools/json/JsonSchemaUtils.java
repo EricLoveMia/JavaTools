@@ -226,14 +226,14 @@ public class JsonSchemaUtils {
 
                     Object currentValue = currentJSON.get(key);
 
-                    if (expectedValue != null && currentValue == null || expectedValue.toString() != "null" && currentValue.toString() == "null") {
+                    if (expectedValue != null && currentValue == null || !expectedValue.toString().equals("null") && currentValue.toString().equals("null")) {
                         JSONObject tempJSON = new JSONObject();
                         tempJSON.put("actualValue", "null");
                         tempJSON.put("expectedValue", expectedValue);
                         jsonDiff.put(key, tempJSON);
                     }
 
-                    if (expectedValue != null && currentValue != null) {
+                    if (currentValue != null) {
                         if (isJsonObject(expectedValue) && !JSONObject.fromObject(expectedValue).isNullObject() || isJsonArray(expectedValue) && !JSONArray.fromObject(expectedValue).isEmpty()) {
                             JSONObject getResultJSON = new JSONObject();
                             getResultJSON = diffFormatJson(currentValue, expectedValue);

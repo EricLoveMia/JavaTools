@@ -1,0 +1,33 @@
+{
+  "type" : "object",
+  "title" : "Example Schema",
+  "properties" : {
+    "age" : {
+      "type" : "integer",
+      "description" : "Age in years",
+      "minimum" : 0
+    },
+    "firstName" : {
+      "type" : "string"
+    },
+    "lastName" : {
+      "type" : "string"
+    },
+    "department": {
+      "type": "object",
+      "title": "department",
+      "properties": {
+        "id": {
+          "title": "部门id",
+          "type": "integer"
+        },
+        "name": {
+          "title": "部门名称",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "description" : "this is a input model",
+  "required" : [ "firstName", "lastName" ]
+}

@@ -1,5 +1,5 @@
 # JDKTools
-基于JDK8 的工具类合集 maven项目（持续更新 目前51个工具类）
+基于JDK8 的工具类合集 maven项目（持续更新 目前57个工具类）
 
 ## 目录结构
 
@@ -71,10 +71,15 @@ WebTools &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// WEB开发常用工具类 特殊字
 ### image
 ImageUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 图片处理工具类 <br>
 
+### jmh
+
 ### json
 JsonSchemaUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// jsonschema对比工具类 <br>
 JsonSchemaUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// jsonschema工具类 <br>
 JSONUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// json工具类 <br>
+JsonToPojo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// json转pojo工具类 <br>
+JsonToSchema &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// json转schema工具类 <br>
+
 
 ### other
 EnumUtil                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 枚举工具类<br>
@@ -93,4 +98,8 @@ ValidateUtil    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 验证工具类（车牌、
 
 ### ssh
 SSHHelper        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SSH远程连接工具类<br>
+
+### string
+CharTools      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符编码工具集<br>
+ValidateUtil      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符验证工具集<br>
 
