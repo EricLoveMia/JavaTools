@@ -11,11 +11,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 /**
- * Company: ClickPaaS
- *
  * @version 1.0.0
  * @description: 线程池监控
- * @author: 钱旭
+ * @author: eric
  * @date: 2022-07-08 18:10
  **/
 public class ThreadPoolMonitor {

@@ -103,3 +103,6 @@ SSHHelper        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SSH远程连接工具类<b
 CharTools      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符编码工具集<br>
 ValidateUtil      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符验证工具集<br>
 
+### websocket
+WebSocketUtil   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// WebSocket工具类<br>
+
