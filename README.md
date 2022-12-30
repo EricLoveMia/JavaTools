@@ -1,5 +1,5 @@
 # JDKTools
-基于JDK8 的工具类合集 maven项目（持续更新 目前57个工具类）
+基于JDK8 的工具类合集 maven项目（持续更新 目前58个工具类）
 
 ## 目录结构
 
@@ -8,7 +8,13 @@ Base64Utils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 图片转base64 base64转图�
 
 ### bean
 BeanToMapUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 实体bean 转成map <fieldName,fieldValue> <br>
- 
+
+### chart
+EchartsData &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Echarts使用类
+
+### classes
+PackageUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 名称空间实用工具
+
 ### code
 CodeUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// code码生成工具<br>
 OrderNoUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 订单编号生成工具类<br>
