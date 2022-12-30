@@ -7,11 +7,9 @@ import org.apache.commons.lang.StringUtils;
 import java.util.Map;
 
 /**
- * Company: ClickPaaS
- *
  * @version 1.0.0
- * @description: jsonschema工具
- * @author: 钱旭
+ * @description: jsonSchema工具 两个jsonSchema对比
+ * @author: eric
  * @date: 2022-02-21 11:30
  **/
 public class JsonSchemaUtil {
