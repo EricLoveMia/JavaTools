@@ -8,7 +8,7 @@ Base64Utils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 图片转base64 base64转图�
 
 ### bean
 BeanToMapUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 实体bean 转成map <fieldName,fieldValue> <br>
-
+BeanCopyUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 实体bean深度拷贝 <br>
 ### chart
 EchartsData &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Echarts使用类
 
@@ -35,6 +35,7 @@ NumUtil  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 格式化数字工具类<br>
       
 ### date
 DateUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 线程安全的日期工具类<br>
+DateTimeUtil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // 普通日期工具类<br>
  
 ### db
 JDBCUtils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // JDBC工具类<br>
@@ -108,6 +109,12 @@ SSHHelper        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// SSH远程连接工具类<b
 ### string
 CharTools      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符编码工具集<br>
 ValidateUtil      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 字符验证工具集<br>
+
+### thread
+ThreadPoolMonitor    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 线程池监控工具<br>
+
+### version
+VersionIncreaseUtil.java  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 版本号自增工具<br>
 
 ### websocket
 WebSocketUtil   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// WebSocket工具类<br>
